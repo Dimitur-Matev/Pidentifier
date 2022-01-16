@@ -1,0 +1,16 @@
+item { 
+	name:'hdmi_in'
+	id:1
+}
+item { 
+	name:'hdmi_out'
+	id:2
+}
+item { 
+	name:'usbport_in'
+	id:3
+}
+item { 
+	name:'VGA_in'
+	id:4
+}

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>IMG_20220114_121850.jpg</filename>
+	<path>/Users/dimmat/Documents/Mitko/Fontys/SmartMobile/Repo/ImageDetectionRepos/RealTimeObjectDetection/Tensorflow/workspace/images/allimages/IMG_20220114_121850.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>VGA_in</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2053</xmin>
+			<ymin>1243</ymin>
+			<xmax>2828</xmax>
+			<ymax>1512</ymax>
+		</bndbox>
+	</object>
+</annotation>

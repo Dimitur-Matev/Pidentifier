@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>istockphoto-1280589202-612x612.jpeg</filename>
+	<path>/Users/dimmat/Documents/Mitko/Fontys/SmartMobile/Repo/ImageDetectionRepos/RealTimeObjectDetection/Tensorflow/workspace/images/allimages/istockphoto-1280589202-612x612.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hdmi_in</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>180</xmin>
+			<ymin>138</ymin>
+			<xmax>432</xmax>
+			<ymax>287</ymax>
+		</bndbox>
+	</object>
+</annotation>

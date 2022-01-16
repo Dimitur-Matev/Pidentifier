@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>macro-hdmi-port-260nw-52460485.jpeg</filename>
+	<path>/Users/dimmat/Documents/Mitko/Fontys/SmartMobile/Repo/ImageDetectionRepos/RealTimeObjectDetection/Tensorflow/workspace/images/allimages/macro-hdmi-port-260nw-52460485.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>390</width>
+		<height>280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hdmi_in</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>86</ymin>
+			<xmax>296</xmax>
+			<ymax>182</ymax>
+		</bndbox>
+	</object>
+</annotation>
