@@ -431,9 +431,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pidentifier/Preview Content\"";
-				DEVELOPMENT_TEAM = S34JXP4J3B;
+				DEVELOPMENT_TEAM = 6CUJR4CJAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pidentifier requires access to your phone's camera.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Pidentifier requires access to your Photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -444,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dimmat.Pidentifier;
+				PRODUCT_BUNDLE_IDENTIFIER = dimopopov.Pidentifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,9 +462,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pidentifier/Preview Content\"";
-				DEVELOPMENT_TEAM = S34JXP4J3B;
+				DEVELOPMENT_TEAM = 6CUJR4CJAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pidentifier requires access to your phone's camera.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Pidentifier requires access to your Photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,7 +477,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dimmat.Pidentifier;
+				PRODUCT_BUNDLE_IDENTIFIER = dimopopov.Pidentifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
