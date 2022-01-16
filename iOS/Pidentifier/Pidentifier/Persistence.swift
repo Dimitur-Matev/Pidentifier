@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  Pidentifier
-//
-//  Created by Dimitar Matev on 16/01/2022.
-//
-
 import CoreData
 
 struct PersistenceController {

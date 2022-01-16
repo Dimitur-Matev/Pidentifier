@@ -1,10 +1,3 @@
-//
-//  PidentifierTests.swift
-//  PidentifierTests
-//
-//  Created by Dimitar Matev on 16/01/2022.
-//
-
 import XCTest
 @testable import Pidentifier
 
