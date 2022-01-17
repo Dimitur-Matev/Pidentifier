@@ -20,10 +20,10 @@ typealias FileInfo = (name: String, extension: String)
 
 enum Yolov5 {
     static let modelInfo: FileInfo = (name: "yolov5s-fp16", extension: "tflite")
-//    static let modelInfo: FileInfo = (name: "model", extension: "tflite")
+//    static let modelInfo: FileInfo = (name: "od_model", extension: "tflite")
 
     static let labelsInfo: FileInfo = (name: "classes", extension: "txt")
-//    static let labelsInfo: FileInfo = (name: "model classes", extension: "txt")
+//    static let labelsInfo: FileInfo = (name: "labels", extension: "txt")
 
 }
 
@@ -42,8 +42,11 @@ class ModelDataHandler: NSObject {
     let inputHeight = 640
     
     let imageMean: Float = 127.5
+//    let imageMean: Float = 0.0
+
     let imageStd:  Float = 127.5
-    
+//    let imageStd:  Float = 0.01
+
     private var labels: [String] = []
     
     private var interpreter: Interpreter
@@ -66,7 +69,7 @@ class ModelDataHandler: NSObject {
     
     
    
-    init?(modelFileInfo: FileInfo, labelsFileInfo: FileInfo, threadCount: Int = 1) {
+    init?(modelFileInfo: FileInfo, labelsFileInfo: FileInfo, threadCount: Int = 10) {
         let modelFilename = modelFileInfo.name
         
         // Construct the path to the model file.
@@ -84,6 +87,8 @@ class ModelDataHandler: NSObject {
         options.threadCount = threadCount
         do {
             // Create the `Interpreter`.
+            print(modelPath)
+            print()
             interpreter = try Interpreter(modelPath: modelPath, options: options)
             // Allocate memory for the model's input `Tensor`s.
             try interpreter.allocateTensors()
@@ -119,7 +124,7 @@ class ModelDataHandler: NSObject {
         
         let interval: TimeInterval
         let outputResult: Tensor
-
+        
         do {
             let inputTensor = try interpreter.input(at: 0)
             
@@ -132,7 +137,10 @@ class ModelDataHandler: NSObject {
                 print("Failed to convert the image buffer to RGB data.")
                 return nil
             }
-            
+            print(batchSize)
+            print(inputWidth)
+            print(inputHeight)
+            print(inputTensor)
             // Copy the RGB data to the input `Tensor`.
             try interpreter.copy(rgbData, toInputAt: 0)
             
@@ -142,8 +150,9 @@ class ModelDataHandler: NSObject {
             interval = Date().timeIntervalSince(startDate) * 1000
             
             outputResult = try interpreter.output(at: 0)
+            print(outputResult)
         } catch let error {
-            print("Failed to invoke the interpreter with error: \(error.localizedDescription)")
+            print("Failed to invoke the interpreter with error2: \(error.localizedDescription)")
             return nil
         }
         
@@ -247,12 +256,10 @@ class ModelDataHandler: NSObject {
                                          height: vImagePixelCount(height),
                                          width: vImagePixelCount(width),
                                          rowBytes: sourceBytesPerRow)
-        
         guard let destinationData = malloc(height * destinationBytesPerRow) else {
             print("Error: out of memory")
             return nil
         }
-        
         defer {
             free(destinationData)
         }

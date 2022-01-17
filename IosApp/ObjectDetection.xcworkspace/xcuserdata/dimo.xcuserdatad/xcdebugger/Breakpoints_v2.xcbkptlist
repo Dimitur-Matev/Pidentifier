@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3542A53D-AA13-40BD-8215-4D7C5A6CCE4C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2B4099A-C621-442B-B1DE-83305E99DBA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjectDetection/ViewControllers/ModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ModalViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E2B4099A-C621-442B-B1DE-83305E99DBA4 - 20cdd53167497a4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ObjectDetection.ModalViewController.label.getter : __C.UILabel"
+                  moduleName = "ObjectDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimo/Desktop/Browser/iso/pidentifier/IosApp/ObjectDetection/ViewControllers/ModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E2B4099A-C621-442B-B1DE-83305E99DBA4 - 1cbad66db513c560"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ObjectDetection.ModalViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ObjectDetection.ModalViewController"
+                  moduleName = "ObjectDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimo/Desktop/Browser/iso/pidentifier/IosApp/ObjectDetection/ViewControllers/ModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "E2B4099A-C621-442B-B1DE-83305E99DBA4 - ddd3cf7383b8dea6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ObjectDetection.ModalViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ObjectDetection.ModalViewController&gt;"
+                  moduleName = "ObjectDetection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimo/Desktop/Browser/iso/pidentifier/IosApp/ObjectDetection/ViewControllers/ModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

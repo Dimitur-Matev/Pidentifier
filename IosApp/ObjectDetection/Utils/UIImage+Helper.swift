@@ -17,7 +17,8 @@ extension UIImage {
         }
         let w = cgImage.width
         let h = cgImage.height
-        
+        print(w)
+        print(h)
         let bytesPerPixel = 4
         let bytesPerRow = bytesPerPixel * w
         let bitsPerComponent = 8

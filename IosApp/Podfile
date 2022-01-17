@@ -6,6 +6,6 @@ target 'ObjectDetection' do
   use_frameworks!
 
   # Pods for ObjectDetection
-  pod 'TensorFlowLiteSwift', "~> 2.3.0"
+  pod 'TensorFlowLiteSwift'
 
 end

@@ -1,4 +1,0 @@
-hdmi_in
-hdmi_out
-VGA_in
-usbport_in
