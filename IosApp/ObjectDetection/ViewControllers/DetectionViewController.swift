@@ -1,22 +1,11 @@
-//
-//  ModalViewController.swift
-//  ObjectDetection
-//
-//  Created by Dimo Popov on 17/01/2022.
-//  Copyright © 2022 Y Media Labs. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
-class ModalViewController: UIViewController {
+class DetectionViewController: UIViewController {
     @IBOutlet var image1: UIImageView!
     @IBOutlet var image2: UIImageView!
     @IBOutlet var image3: UIImageView!
     @IBOutlet var image4: UIImageView!
-    
-    
-    let label = UILabel()
     
 
     @IBOutlet var hdmiDescription : UILabel!
@@ -24,15 +13,15 @@ class ModalViewController: UIViewController {
     override func viewDidLoad() {
 
 
-        hdmiDescription.text = "High-Definition Multimedia Interface (HDMI) \nis a proprietary audio/video interface for \ntransmitting uncompressed video data and \ncompressed or uncompressed digital audio data \nfrom an HDMI-compliant source device, \nsuch as a display controller, to a compatible \ncomputer monitor, video projector, \ndigital television, or digital audio device.[3] \nHDMI is a digital replacement for analog \nvideo standards."
+        hdmiDescription.text = "A USB port is a standard cable \nconnection interface for personal computers and \nconsumer electronics devices. USB stands for \nUniversal Serial Bus, an industry standard \nfor short-distance digital data communications. USB \nports allow USB \ndevices to be connected to each other with \nand transfer digital data over USB cables."
         hdmiDescription.numberOfLines = 0
         hdmiDescription.translatesAutoresizingMaskIntoConstraints = false
         hdmiDescription.lineBreakMode = .byWordWrapping
         
-        image1.image = UIImage(named: "hdmi_port1")
-        image2.image = UIImage(named: "hdmi_port2")
-        image3.image = UIImage(named: "hdmi_port3")
-        image4.image = UIImage(named: "hdmi_port4")
+        image1.image = UIImage(named: "usb_port1")
+        image2.image = UIImage(named: "usb_port2")
+        image3.image = UIImage(named: "usb_port3")
+        image4.image = UIImage(named: "usb_port4")
         hideElements()
         hdmiDescription.isHidden = false
     
@@ -49,10 +38,10 @@ class ModalViewController: UIViewController {
         else if sender.selectedSegmentIndex == 1{
             //view.backgroundColor = .blue
             hideElements()
-            image1.image = UIImage(named: "hdmi_port1")
-            image2.image = UIImage(named: "hdmi_port2")
-            image3.image = UIImage(named: "hdmi_port3")
-            image4.image = UIImage(named: "hdmi_port4")
+            image1.image = UIImage(named: "usb_port1")
+            image2.image = UIImage(named: "usb_port2")
+            image3.image = UIImage(named: "usb_port3")
+            image4.image = UIImage(named: "usb_port4")
             showImages()
         }
         else if sender.selectedSegmentIndex == 2{
@@ -67,10 +56,10 @@ class ModalViewController: UIViewController {
         else if sender.selectedSegmentIndex == 3{
             //view.backgroundColor = .red
             hideElements()
-            image1.image = UIImage(named: "hdmi_cable1")
-            image2.image = UIImage(named: "hdmi_cable2")
-            image3.image = UIImage(named: "hdmi_cable3")
-            image4.image = UIImage(named: "hdmi_cable4")
+            image1.image = UIImage(named: "usb_port1")
+            image2.image = UIImage(named: "usb_port2")
+            image3.image = UIImage(named: "usb_port3")
+            image4.image = UIImage(named: "usb_port4")
             showImages()
         }
     }

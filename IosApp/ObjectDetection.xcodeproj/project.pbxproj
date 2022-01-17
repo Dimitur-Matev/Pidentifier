@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12439F5C279590C8007EA5FF /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12439F5B279590C8007EA5FF /* DetectionViewController.swift */; };
 		35293C4E2794D2B50054E408 /* od_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 35293C4C2794D2B40054E408 /* od_model.tflite */; };
 		35293C4F2794D2B50054E408 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35293C4D2794D2B50054E408 /* labels.txt */; };
 		35293C51279518D00054E408 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35293C50279518D00054E408 /* ModalViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12439F5B279590C8007EA5FF /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
 		35293C4C2794D2B40054E408 /* od_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = od_model.tflite; path = ObjectDetection/Model/od_model.tflite; sourceTree = "<group>"; };
 		35293C4D2794D2B50054E408 /* labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = labels.txt; path = ObjectDetection/Model/labels.txt; sourceTree = "<group>"; };
 		35293C50279518D00054E408 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				AA16E59C218081AA00D9E153 /* InferenceViewController.swift */,
 				AA9AC5E1212D4520000B4E9D /* ViewController.swift */,
 				35293C50279518D00054E408 /* ModalViewController.swift */,
+				12439F5B279590C8007EA5FF /* DetectionViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				AA756E652150C996004BB0BC /* CameraFeedManager.swift in Sources */,
 				AAAB09702189838A0015A1F2 /* CVPixelBufferExtension.swift in Sources */,
 				9679122D277454F600519CB8 /* UIImage+Helper.swift in Sources */,
+				12439F5C279590C8007EA5FF /* DetectionViewController.swift in Sources */,
 				AAEF3D8D21A2BE2B0073AE1C /* UIColorExtension.swift in Sources */,
 				9679122C277454F600519CB8 /* PrePostProcessor.swift in Sources */,
 				AA9AC59F212D39FC000B4E9D /* AppDelegate.swift in Sources */,
